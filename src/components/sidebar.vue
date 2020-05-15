@@ -98,22 +98,22 @@ export default {
           index: '3',
           title: "办公OA",
           subs: [
-          {
-            index: "innerFile",
-            title: "内部公文"
-          },
-          {
-            index: "innerMessage",
-            title: "站内短信"
-          },
-          {
-            index: "workReport",
-            title: "工作报告"
-          },
-          {
-            index: "fileCabient",
-            title: "文件柜"
-          },
+          // {
+          //   index: "innerFile",
+          //   title: "内部公文"
+          // },
+          // {
+          //   index: "innerMessage",
+          //   title: "站内短信"
+          // },
+          // {
+          //   index: "workReport",
+          //   title: "工作报告"
+          // },
+          // {
+          //   index: "fileCabient",
+          //   title: "文件柜"
+          // },
           {
             index: "addressBook",
             title: "通讯录"
@@ -244,7 +244,6 @@ export default {
   top: 60px;
   bottom: 0;
   left: 0;
-  /* background-color: aqua; */
   width: 230px;
   overflow: scroll;
 }

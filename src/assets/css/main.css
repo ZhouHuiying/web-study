@@ -1,7 +1,7 @@
 /* 一整个表格，分为表格的左边和右边 */
-/* .table {
+.table {
     border: solid 1px black;
-} */
+}
 
 .table-left {
     width: 30%;

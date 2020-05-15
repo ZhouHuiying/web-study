@@ -102,6 +102,11 @@ export default new router({
                     component: () =>import('../Page/officeOA/addressBook.vue'),
                 },
                 {
+                    path: '/selfCalendar',
+                    name: '个人日历',
+                    component: () =>import('../Page/officeOA/selfCalendar.vue'),
+                },
+                {
                     path: '/dataAnalyze',
                     name: '数据统计',
                     component: () =>import('../Page/functionPlugin/dataAnalyze.vue'),
