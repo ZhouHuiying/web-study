@@ -91,7 +91,7 @@ export default {
 }
 .tags-group {
     display: flex;
-    margin-top: 5px;
+    margi
 }
 .tags-item {
     position: relative;

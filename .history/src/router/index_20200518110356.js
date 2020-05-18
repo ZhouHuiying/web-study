@@ -123,13 +123,8 @@ export default new router({
                 },
                 {
                     path: '/Address',
-                    name: '通讯录',
-                    component: () =>import('../Page/functionPlugin/Address.vue'),
-                },
-                {
-                    path: '/pluginManage',
-                    name: '插件管理',
-                    component: () =>import('../Page/functionPlugin/pluginManage.vue'),
+                    name: '员工管理',
+                    component: () =>import('../Page/systemSetting/Address.vue'),
                 },
                 
             ]

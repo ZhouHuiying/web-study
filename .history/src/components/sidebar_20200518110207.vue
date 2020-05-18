@@ -141,7 +141,7 @@ export default {
             title: "通讯录"
           },
            {
-            index: "pluginManage",
+            index: "plugin",
             title: "插件管理"
           },
         ]

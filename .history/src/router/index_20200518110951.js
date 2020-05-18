@@ -128,7 +128,7 @@ export default new router({
                 },
                 {
                     path: '/pluginManage',
-                    name: '插件管理',
+                    name: '员工管理',
                     component: () =>import('../Page/functionPlugin/pluginManage.vue'),
                 },
                 

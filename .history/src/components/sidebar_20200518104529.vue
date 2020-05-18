@@ -132,17 +132,13 @@ export default {
             index: "dataAnalyze",
             title: "数据统计"
           },
-          // {
-          //   index: "innerChat",
-          //   title: "内部聊天"
-          // },
+          {
+            index: "innerChat",
+            title: "内部聊天"
+          },
           {
             index: "Address",
             title: "通讯录"
-          },
-           {
-            index: "pluginManage",
-            title: "插件管理"
           },
         ]
         },

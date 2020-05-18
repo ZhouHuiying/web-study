@@ -140,10 +140,6 @@ export default {
             index: "Address",
             title: "通讯录"
           },
-           {
-            index: "pluginManage",
-            title: "插件管理"
-          },
         ]
         },
         {

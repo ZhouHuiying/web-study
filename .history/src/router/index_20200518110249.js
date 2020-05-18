@@ -122,14 +122,9 @@ export default new router({
                     component: () =>import('../Page/systemSetting/employeeManagement.vue'),
                 },
                 {
-                    path: '/Address',
-                    name: '通讯录',
-                    component: () =>import('../Page/functionPlugin/Address.vue'),
-                },
-                {
-                    path: '/pluginManage',
-                    name: '插件管理',
-                    component: () =>import('../Page/functionPlugin/pluginManage.vue'),
+                    path: '/employeeManagement',
+                    name: '员工管理',
+                    component: () =>import('../Page/systemSetting/employeeManagement.vue'),
                 },
                 
             ]
