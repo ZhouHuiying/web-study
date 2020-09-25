@@ -7,11 +7,11 @@ export default new router({
     routes: [
         {
             path: '/tableTest',
-            component: () =>import('../Page/tableTest.vue')
+            component: () =>import('../Page/test/tableTest.vue')
         },
         {
             path: '/test',
-            component: () =>import('../Page/test.vue')
+            component: () =>import('../Page/test/test2.vue')
         },
         {
             path: '/login',
@@ -31,6 +31,7 @@ export default new router({
                     name: '系统首页',
                     component: () =>import('../Page/systemHomepage.vue'),
                 },
+              
                 {
                     path: '/allCustome',
                     name: '所有客户',
