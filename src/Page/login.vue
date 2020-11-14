@@ -1,7 +1,7 @@
 <template>
   <div class="login-wrap">
     <div class="ms-login">
-      <div class="ms-title">领克信息CRM客户管理系统</div>
+      <div class="ms-title">CRM客户管理系统</div>
       <el-form ref="login" label-width="0px" class="ms-content">
         <el-form-item prop="username">
           <el-input v-model="user">

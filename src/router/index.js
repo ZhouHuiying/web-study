@@ -31,7 +31,6 @@ export default new router({
                     name: '系统首页',
                     component: () =>import('../Page/systemHomepage.vue'),
                 },
-              
                 {
                     path: '/allCustome',
                     name: '所有客户',

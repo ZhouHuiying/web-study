@@ -2,7 +2,7 @@
   <div>
     <div class="top">
       <i class="el-icon-location"></i>
-      欢迎使用领克信息CRM客户管理系统！
+      欢迎使用CRM客户管理系统！
       <i class="el-icon-refresh" id="refresh"></i>
     </div>
 
