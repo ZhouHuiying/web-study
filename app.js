@@ -12,7 +12,16 @@ app.all('*', (req, res, next) => {
 });
 
 app.get('/', (req, res) => res.send('Hello World!'))
+
 app.post('/', function (req, res) {
   res.send('Got a POST request')
 })
+
+app.put('/user', function (req, res) {
+  res.send('Got a PUT request at /user')
+})
+
+app.use(express.static('public'))
+// app.use('/static', express.static('public'))
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
