@@ -11,7 +11,7 @@ export default new router({
         },
         {
             path: '/test',
-            component: () =>import('../Page/test/test.vue')
+            component: () =>import('../Page/test/test2.vue')
         },
         {
             path: '/login',
