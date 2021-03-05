@@ -10,8 +10,8 @@ export default new router({
             component: () =>import('../Page/test/tableTest.vue')
         },
         {
-            path: '/test',
-            component: () =>import('../Page/test/test2.vue')
+            path: '/ganttChart',
+            component: () =>import('../Page/demo/gantt.vue')
         },
         {
             path: '/login',
