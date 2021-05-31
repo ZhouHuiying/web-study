@@ -25,7 +25,7 @@
 
 <script>
 import axios from "axios";
-import { login } from "@/api/apiList/test.js";
+import { login } from "@/api/apiList/test1.js";
 export default {
   data() {
     return {

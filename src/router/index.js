@@ -7,7 +7,7 @@ export default new router({
     routes: [
         {
             path: '/tableTest',
-            component: () =>import('../Page/test/tableTest.vue')
+            component: () =>import('../Page/demo/tableTest.vue')
         },
         {
             path: '/ganttChart',

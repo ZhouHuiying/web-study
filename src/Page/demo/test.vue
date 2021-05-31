@@ -1,6 +1,6 @@
 <template>
   <div class="box-out">
-    <div class="box"></div>
+    <div class="box"></div>ddd
   </div>
 </template>
 
@@ -32,14 +32,13 @@ export default {
 </script>
 <style  >
 .box-out{
-   display: flex;
+  display: flex;
   flex:1;
 }
 .box{
   width: 100px;
   height:100px;
   background-color: pink;
- 
 } 
 </style>
 
