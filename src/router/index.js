@@ -14,6 +14,10 @@ export default new router({
             component: () =>import('../Page/demo/gantt.vue')
         },
         {
+            path: '/test',
+            component: () =>import('../Page/demo/test.vue')
+        },
+        {
             path: '/login',
             component: () =>import('../Page/login.vue')
         },
