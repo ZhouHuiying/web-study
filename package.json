@@ -15,7 +15,7 @@
     "dhtmlx-gantt": "^7.0.13",
     "echarts": "^4.9.0",
     "element-ui": "^2.13.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "gantt-elastic": "^1.0.12",
     "postcss": "^8.2.7",
     "sass-loader": "^8.0.2",
